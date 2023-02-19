@@ -1,0 +1,46 @@
+.mainForm{
+    -fx-background-color: white;
+//   -fx-border-color: #820000;
+//   -fx-border-width: 1 1 1 1
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+//-fx-background-radius: 50px
+
+
+}
+
+.leftForm{
+    -fx-background-color: linear-gradient(to top right  ,#C147E9 ,#7286D3);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 2, 0, 0, 0);
+// -fx-background-radius: 50px;
+    -fx-background-radius: 0 80 80 0;
+
+}
+
+.middleForm{
+    -fx-background-color: #FFFFFF;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-background-radius: 80 80 80 80;
+}
+
+.adminForm{
+    -fx-background-color: linear-gradient(to top right  ,#7286D3 ,#C147E9 );
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-background-radius: 20 20 20 20;
+
+}
+
+.dashBordButton{
+    -fx-background-color: #FFFFFF;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-background-radius: 30px;
+}
+
+.dashBordButton:hover{
+    -fx-background-color: #DDDDDD;
+}
+
+.box{
+    -fx-background-color: #FFFFFF;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-background-radius: 20 20 20 20;
+}

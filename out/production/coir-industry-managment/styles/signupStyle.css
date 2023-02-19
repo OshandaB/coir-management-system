@@ -1,0 +1,33 @@
+.mainForm{
+    -fx-background-color: white;
+//   -fx-border-color: #820000;
+//   -fx-border-width: 1 1 1 1
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+
+}
+
+
+.leftForm{
+    -fx-background-color: linear-gradient(to top right  ,#C147E9 ,#7286D3);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.userNameField{
+    -fx-background-color: transparent;
+    -fx-border-color: gray;
+    -fx-border-width: 0 0 2 0;
+}
+
+.LoginButton{
+    -fx-background-color: linear-gradient(to top right  ,#C147E9 ,#7286D3);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 0, 0, 0, 0);
+    -fx-background-radius: 10px;
+    -fx-text-fill: #FFFFFF;
+
+}
+
+.LoginButton:hover{
+    -fx-background-color: #2D033B;
+
+
+}

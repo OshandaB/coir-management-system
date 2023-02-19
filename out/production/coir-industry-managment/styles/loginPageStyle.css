@@ -1,0 +1,44 @@
+.mainForm{
+    -fx-background-color: white;
+ //   -fx-border-color: #820000;
+ //   -fx-border-width: 1 1 1 1
+//-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+
+}
+
+.leftForm{
+    //-fx-background-color: linear-gradient(to top right  , #01337C,#7286D3);
+    -fx-background-color: linear-gradient(to top right  ,#C147E9 ,#7286D3);
+   // -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.rightForm{
+    -fx-background-color: #FFFFFF;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+
+}
+
+.userNameField{
+    -fx-background-color: transparent;
+    //-fx-border-color: #2D033B;
+    -fx-border-color: linear-gradient(to top right  ,#C147E9 ,#7286D3);
+    -fx-border-width: 0 0 2 0;
+
+}
+
+.LoginButton{
+    //-fx-background-color: linear-gradient(to top right  , #1C82AD, #86E5FF);
+    -fx-background-color: linear-gradient(to top right  ,#C147E9 ,#7286D3);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 0, 0, 0, 0);
+    -fx-background-radius: 10px;
+    -fx-text-fill: #FFFFFF;
+
+}
+.LoginButton:hover{
+    -fx-background-color: #2D033B;
+
+}
+.loginName{
+    -fx-text-fill: linear-gradient(to top right  ,#7286D3 ,#C147E9);
+}

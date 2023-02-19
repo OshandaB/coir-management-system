@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="311.0" prefWidth="600.0" styleClass="mainForm" stylesheets="@../styles/StartFormStyle.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.StartFormController">
+   <children>
+      <JFXProgressBar fx:id="progresBar" layoutX="66.0" layoutY="272.0" prefHeight="5.0" prefWidth="468.0" secondaryProgress="6.0" />
+      <ImageView fitHeight="45.0" fitWidth="468.0" layoutX="77.0" layoutY="191.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/welcome.gif" />
+         </image>
+      </ImageView>
+      <Text layoutX="265.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Loading....">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="150.0" fitWidth="307.0" layoutX="227.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/Enterprise.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="77.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/tree.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="mainPain1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="715.0" prefWidth="1150.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashbordStockControler">
+   <children>
+      <AnchorPane fx:id="mainPain" layoutX="24.0" layoutY="20.0" prefHeight="626.0" prefWidth="1102.0" styleClass="middleForm" stylesheets="@../../../../PPPP/coir-industry-managment/src/view/style/Dashbord.css">
+         <children>
+            <Button fx:id="productionBtn" layoutX="141.0" layoutY="69.0" mnemonicParsing="false" onAction="#productionClick" prefHeight="40.0" prefWidth="301.0" styleClass="buttons" stylesheets="@../styles/DashbordEmployeeStyle.css" text="Production Stock" />
+            <Button fx:id="rawMaterialBtn" layoutX="666.0" layoutY="69.0" mnemonicParsing="false" onAction="#rawMaterialClick" prefHeight="40.0" prefWidth="301.0" styleClass="buttons" stylesheets="@../styles/DashbordEmployeeStyle.css" text="Raw material Stock" />
+            <ImageView fitHeight="445.0" fitWidth="541.0" layoutX="546.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/df2a51_3969ec31e0224e27b851a271ee24c46e_mv2.gif" />
+               </image>
+            </ImageView>
+            <TextField fx:id="meterTxt" alignment="CENTER" layoutX="761.0" layoutY="469.0" prefHeight="46.0" prefWidth="98.0" styleClass="metreLb" stylesheets="@../styles/DashbordEmployeeStyle.css" />
+            <TextField fx:id="levelSet" alignment="CENTER" layoutX="689.0" layoutY="543.0" prefHeight="46.0" prefWidth="256.0" styleClass="metreLb" stylesheets="@../styles/DashbordEmployeeStyle.css" />
+            <ImageView fx:id="imag" fitHeight="297.0" fitWidth="527.0" layoutX="80.0" layoutY="276.0" onMousePressed="#img" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/undraw_factory_dy0a.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="974.0" layoutY="546.0" mnemonicParsing="false" onAction="#btnFire" prefHeight="40.0" prefWidth="91.0" text="Button" textFill="#c32e2e" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

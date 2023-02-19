@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="674.0" prefWidth="1150.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashbordHomeController">
+   <children>
+      <AnchorPane layoutX="23.0" layoutY="14.0" prefHeight="625.0" prefWidth="1083.0" styleClass="middleForm" stylesheets="@../styles/Dashbord.css">
+         <children>
+            <Line endX="1015.0" endY="16.0" layoutX="101.0" layoutY="63.0" startX="-101.0" startY="16.0" />
+            <Label fx:id="timeLbl" layoutX="819.0" layoutY="24.0" prefHeight="43.0" prefWidth="201.0" textFill="#5c1ea8">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font></Label>
+            <Label fx:id="date" layoutX="64.0" layoutY="25.0" prefHeight="43.0" prefWidth="262.0" textFill="#5c1ea8">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="28.0" />
+               </font></Label>
+            <AnchorPane layoutX="133.0" layoutY="118.0" prefHeight="164.0" prefWidth="167.0" styleClass="topAnchorPane" stylesheets="@../styles/DashbordEmployeeStyle.css">
+               <children>
+                  <Label fx:id="employeeCountLbl" layoutX="74.0" layoutY="131.0" prefHeight="3.0" prefWidth="19.0" text="0">
+                     <font>
+                        <Font name="Arial Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="26.0" layoutY="102.0" text="Total Orders">
+                     <font>
+                        <Font name="Arial Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="90.0" fitWidth="94.0" layoutX="27.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/cart.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="413.0" layoutY="118.0" prefHeight="164.0" prefWidth="167.0" styleClass="topAnchorPane" stylesheets="@../styles/DashbordEmployeeStyle.css">
+               <children>
+                  <Label fx:id="employeeCountLbl1" layoutX="74.0" layoutY="131.0" prefHeight="3.0" prefWidth="19.0" text="0">
+                     <font>
+                        <Font name="Arial Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="101.0" text="Monthly Income">
+                     <font>
+                        <Font name="Arial Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="77.0" fitWidth="73.0" layoutX="43.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/income.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="697.0" layoutY="118.0" onMouseClicked="#tracking" prefHeight="164.0" prefWidth="167.0" styleClass="topAnchorPane" stylesheets="@../styles/DashbordEmployeeStyle.css">
+               <children>
+                  <Label layoutX="14.0" layoutY="101.0" text="Vehicle Traking">
+                     <font>
+                        <Font name="Arial Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="77.0" fitWidth="73.0" layoutX="43.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/location.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <LineChart fx:id="lineChart" layoutX="122.0" layoutY="311.0" prefHeight="279.0" prefWidth="470.0">
+              <xAxis>
+                <CategoryAxis side="BOTTOM" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis side="LEFT" />
+              </yAxis>
+            </LineChart>
+            <PieChart fx:id="pieChart" layoutX="690.0" layoutY="291.0" prefHeight="309.0" prefWidth="391.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,114 @@
+.buttons{
+    -fx-background-color: #2D033B;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 1, 0, 0, 0);
+    -fx-background-radius: 50px;
+    -fx-text-fill: white;
+
+
+}
+
+.topAnchorPane{
+//-fx-background-color: #FFFFFF;
+//-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+//-fx-background-color: linear-gradient(to top right  ,#C147E9 ,#7286D3);
+// -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 1, 1, 1, 1);
+    -fx-background-radius: 30px;
+    -fx-background-color: #FFFFFF;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-border-color: linear-gradient(to top right  ,#C147E9 ,#7286D3);
+    -fx-border-radius: 30px;
+
+}
+.topAnchorPane:hover{
+//-fx-background-color: linear-gradient(to top left  ,#7286D3 ,#C147E9);
+//-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 6, 0, 0, 0);
+//-fx-background-radius: 30px;
+
+
+}
+
+.table-view{
+    -fx-background-color: transparent;
+//-fx-background-color:#2D033B ;
+//-fx-border-color:linear-gradient(to top right  ,#C147E9 ,#7286D3);
+    -fx-border-color: #2D033B;
+    -fx-border-radius: 6px;
+
+}
+.table-view .column-header {
+    -fx-background-color:#2D033B ;
+    -fx-text-fill: white;
+}
+.table-view .table-cell{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+
+.table-row-cell{
+    -fx-border-color: #2D033B;
+    -fx-table-cell-border-color:#2D033B;
+    -fx-font-weight: bold;
+}
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+.buttons:hover{
+    -fx-background-color: #2D033B ;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+.table-row-cell:selected {
+    -fx-background-color: red;
+}
+
+
+
+.userNameField{
+    -fx-background-color: transparent;
+    -fx-border-color: #2D033B;
+// -fx-border-color: linear-gradient(to top right  ,#C147E9 ,#7286D3);
+// -fx-border-width: 0 0 2 0;
+    -fx-border-width: 2 2 2 2;
+    -fx-border-radius: 10px;
+}
+.userNameField:focused{
+    -fx-border-radius: 0px;
+    -fx-border-width: 0 0 2 0;
+}
+.buttonClean{
+    -fx-background-color: red;
+    -fx-text-fill: black;
+    -fx-background-radius: 20px;
+
+}
+.buttonClean:hover{
+    -fx-font-weight: bold;
+}
+
+.icon{
+    -fx-background-color: white;
+}
+.buttonsStock{
+    -fx-background-color: #2D033B;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 1, 0, 0, 0);
+    -fx-background-radius: 50px;
+    -fx-text-fill: white;
+}
+
+.metreLb{
+    -fx-background-color: transparent;
+    -fx-border-color: #034DC0;
+// -fx-border-color: linear-gradient(to top right  ,#C147E9 ,#7286D3);
+// -fx-border-width: 2 2 2 2;
+    -fx-border-width: 2 2 2 2;
+    -fx-border-radius: 10px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #034DC0;
+
+}
+
+
+
+

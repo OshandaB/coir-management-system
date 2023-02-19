@@ -1,0 +1,8 @@
+.mainForm{
+    -fx-background-color: #ffff;
+}
+.loading{
+    -fx-background-color: #000;
+    -fx-font: Bold;
+
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="673.0" prefWidth="1014.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.TrackingController">
+   <children>
+      <AnchorPane layoutX="58.0" layoutY="7.0" prefHeight="628.0" prefWidth="904.0" styleClass="middleForm" stylesheets="@../styles/Dashbord.css">
+         <children>
+            <ImageView fitHeight="546.0" fitWidth="821.0" layoutX="42.0" layoutY="48.0">
+               <image>
+                  <Image url="@../assets/map.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="41.0" fitWidth="25.0" layoutX="489.0" layoutY="333.0">
+               <image>
+                  <Image url="@../assets/redLo-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="489.0" layoutY="313.0" prefHeight="41.0" prefWidth="128.0" text="SP LE - 8896" textFill="WHITE">
+               <font>
+                  <Font name="Bookshelf Symbol 7" size="19.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="41.0" fitWidth="25.0" layoutX="470.0" layoutY="226.0">
+               <image>
+                  <Image url="@../assets/redLo-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="483.0" layoutY="197.0" prefHeight="41.0" prefWidth="128.0" text="SP LG - 7886" textFill="WHITE">
+               <font>
+                  <Font name="Bookshelf Symbol 7" size="19.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
